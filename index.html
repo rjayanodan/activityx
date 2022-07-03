@@ -1,0 +1,269 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    
+*{
+  font-family: 'Nunito', sans-serif;  
+  /* letter-spacing: 1px; */
+ }
+
+body{
+    background-color: #d2e1f8;   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   }
+.card
+{
+    background: rgb(255, 255, 255, 0.2);
+    box-shadow: 0 15px 35px rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.container2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    
+}
+.container2 .card2
+{
+    position: relative;
+    width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                inset -5px -5px 5px rgba(255,255,255,0.5),
+                5px 5px 5px rgba(0,0,0,0.05),
+                -5px -5px 5px rgba(255,255,255,0.5);
+    border-radius: 15px;
+    margin: 30px;
+}
+.container2 .card2 .box2
+{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #ebf5fc;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.container2 .card2:hover .box2
+{
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    background: linear-gradient(45deg, #b95ce4, #4f29cd);
+
+}
+.container2 .card2 .box2 .content2
+{ 
+    padding: 20px;
+    text-align: center;
+}
+.container2 .card2 .box2 .content2 h2
+{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(0,0,0,0.05);
+    transition: 0.5s; 
+    pointer-events: none;
+}
+.container2 .card2:hover .box2 .content2 h2
+{
+    color: rgba(0,0,0,0.05);
+}
+.container2 .card2:hover .box2 .content2 h3,
+.container2 .card2:hover .box2 .content2 p
+
+{
+    color: #fff;
+}
+
+.container2 .card2 .box2 .content2 h3
+{
+    font-size: 1.8em;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
+.container2 .card2 .box2 .content2 p
+{
+    font-size: 1em;
+    font-weight: 300;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
+.container2 .card2 .box2 .content2 a
+{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #03a9f4;
+    margin-top: 15px;
+    border-radius: 20px;    
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.container2 .card2:hover .box2 .content2 a
+{
+    background: #ff568f;
+}
+
+
+</style>
+<body>
+
+    
+
+<center><h1>Activities</h1></center>
+     <div class="container2" style="margin-left: 7%;">
+                <div class="card2"> 
+                    <div class="box2">
+                        <div class="content2">
+                       
+                            <!-- <h2>10</h2> -->
+                  
+                           
+
+                            <h3>Activity 1</h3>
+                            <img src="acrivty.jpg"  
+                                 style="height: 150px; width: 150px; border-radius: 5%;" alt="package image">
+                            <p>All about myself</p>
+                            <p class="float-end"></p>
+                            <a href="myself.html">View</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card2"> 
+                    <div class="box2">
+                        <div class="content2">
+                       
+                            <!-- <h2>10</h2> -->
+                  
+                           
+
+                            <h3>Activity 2</h3>
+                            <img src="acrivty.jpg"  
+                                 style="height: 150px; width: 150px; border-radius: 5%;" alt="package image">
+                            <p>Animal</p>
+                            <p class="float-end"></p>
+                            <a href="animal.html">View</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card2"> 
+                    <div class="box2">
+                        <div class="content2">
+                       
+                            <!-- <h2>10</h2> -->
+                  
+                           
+
+                            <h3>Activity 3</h3>
+                            <img src="acrivty.jpg"  
+                                 style="height: 150px; width: 150px; border-radius: 5%;" alt="package image">
+                            <p>Forms and Table</p>
+                            <p class="float-end"></p>
+                            <a href="forms.html">View</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card2"> 
+                    <div class="box2">
+                        <div class="content2">
+                       
+                            <!-- <h2>10</h2> -->
+                  
+                           
+
+                            <h3>Activity 4</h3>
+                            <img src="acrivty.jpg"  
+                                 style="height: 150px; width: 150px; border-radius: 5%;" alt="package image">
+                            <p>School Time Table</p>
+                            <p class="float-end"></p>
+                            <a href="school.html">View</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card2"> 
+                    <div class="box2">
+                        <div class="content2">
+                       
+                            <!-- <h2>10</h2> -->
+                  
+                           
+
+                            <h3>Activity 5</h3>
+                            <img src="acrivty.jpg"  
+                                 style="height: 150px; width: 150px; border-radius: 5%;" alt="package image">
+                            <p>Tables form</p>
+                            <p class="float-end"></p>
+                            <a href="Tablesform.html">View</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card2"> 
+                    <div class="box2">
+                        <div class="content2">
+                       
+                            <!-- <h2>10</h2> -->
+                  
+                           
+
+                            <h3>Activity 6</h3>
+                            <img src="acrivty.jpg"  
+                                 style="height: 150px; width: 150px; border-radius: 5%;" alt="package image">
+                            <p>Planetary</p>
+                            <p class="float-end"></p>
+                            <a href="Planetary.html">View</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+        </div>
+     </div>
+
+     
+
+  
+</body>
+</html>
